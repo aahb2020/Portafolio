@@ -65,6 +65,7 @@ body {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 40px;
+    padding-top: 20px;
   }
   
   .hero {
@@ -88,7 +89,8 @@ body {
   
   .portfolio {
     background-color: #f6f6f6;
-    padding: 20px;
+    padding: 10px;
+    padding-left: -10px;
     /* background: red; */
   }
   
@@ -143,11 +145,14 @@ body {
   
   
   .project-details {
-    width: 500px;
+    width: 50%;
   }
   
   .project-imageContainer {
-    width: 550px;
+    width: 50%;
+  }
+  .project-imageContainer img {
+    max-width: 100%;
   }
   .project-course {
       font-size: 13px;
@@ -248,7 +253,7 @@ body {
   }
   .course-detail {
     margin: 20px 40px;
-    margin-top: -40px;
+    margin-top: -80px;
     background-color: white;
     position: relative;
     padding: 20px;
@@ -318,7 +323,7 @@ body {
     border-radius: 5px;
     width: 100px;
     margin-top: 10px;
-    margin-bottom: 14px;
+    /* margin-bottom: 14px; */
   }
   
   .form-email h3 { 
@@ -327,8 +332,9 @@ body {
   
   .container {
     /* border: 1px solid red; */
-    width: 1000px;
+   /*  width: 1000px; */
     margin: 0 auto;
+    flex: 1;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
@@ -363,7 +369,7 @@ body {
       position: absolute;
       z-index: 1;
       left: 0;
-      right: 0;
+      right: -1;
       top: 0;
       bottom: 0;
       width: 100%;
@@ -398,6 +404,8 @@ body {
    }
    .header .logo {
      text-align: center;
+     margin-top: 4px;
+     margin-bottom: -3px;
    }
    .menu {
      position: fixed;
@@ -460,6 +468,8 @@ body {
     .course-detail{
       margin: 2em .5em .5em;
       padding: 1em;
+      margin-top: -40px;
+      padding-left: -10px;
     }
     .contact {
       height: auto;
@@ -479,7 +489,12 @@ body {
       border: 1px solid transparent;
     }
     h1 {
+      padding:20px ;
       font-size: 1.5em;
+      background: rgba(0, 0, 0, .6);
+    }
+    .project-description {
+      font-size: 1em;
     }
   }
   @media screen and (max-width: 320px){
