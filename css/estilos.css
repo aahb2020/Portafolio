@@ -357,7 +357,13 @@ body {
   }
   @media screen and (max-width: 1024px){
     .container {
-      padding: 0 1em;
+      padding-top: 0em;
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-bottom: 0em;
+    }
+    .contact {
+      padding-bottom: .9em;
     }
     .hero {
       height: auto;
@@ -377,8 +383,17 @@ body {
     h1 {
       font-size: 2em;
       z-index: 2;
+      background: rgba(0, 0, 0, .6);
     }
-  
+    .form-email input {
+      padding-bottom: 8px;
+    }
+    .header {
+      margin-bottom: -.5em;
+    }
+    .course-list {
+     justify-content: center;
+    }
   }
   @media screen and (max-width: 767px) {
     .burger-button{
@@ -387,6 +402,7 @@ body {
     .header{
     display: block;
     height: auto;
+    margin-bottom: -.4em;
    }
    .header ol {
      display: block;
@@ -409,7 +425,7 @@ body {
    }
    .menu {
      position: fixed;
-     background: rgba(5, 111, 255, .9);
+     background:rgba(255,255,255,.7);
      z-index: 3;
      top: 0;
      left: -100vw;
@@ -460,48 +476,207 @@ body {
    .course img {
      width: 100%;
    }
+   h1 {
+    background: rgba(0, 0, 0, .6);
+    margin: 2px;
+  
+   }
   }
-  @media screen and (max-width: 480px){
-    .project-details{
-      font-size: 12px;
-    }
-    .course-detail{
-      margin: 2em .5em .5em;
-      padding: 1em;
-      margin-top: -40px;
-      padding-left: -10px;
-    }
-    .contact {
-      height: auto;
-      padding: 1.5em 0;
-      text-align: center;
-      display: block;
-    }
-    .form-email button {
-      margin: 1em auto;
-    }
-    .form-email h3 {
-      margin-top: 0;
-    }
-    .footer {
-      display: block;
-      text-align: center;
-      border: 1px solid transparent;
-    }
+  
+  @media screen and (max-width: 520px){
     h1 {
-      padding:20px ;
-      font-size: 1.5em;
       background: rgba(0, 0, 0, .6);
+      text-align: center;
+      justify-content: center;
+      margin-left: 3em;
+      margin-right: 3em;
+      margin: .4em;
+     }
     }
-    .project-description {
-      font-size: 1em;
+    @media screen and (max-width: 502px){
+      h1 {
+        background: rgba(0, 0, 0, .6);
+        text-align: center;
+        justify-content: center;
+        margin-left: 3em;
+        margin-right: 3em;
+        margin: .3em;
+       }
+      }
+      @media screen and (max-width: 491px){
+        h1 {
+          background: rgba(0, 0, 0, .6);
+          text-align: center;
+          justify-content: center;
+          margin-left: 3em;
+          margin-right: 3em;
+          margin: .em;
+         }
+        }
+        @media screen and (max-width: 480px){
+          .project-details{
+            font-size: 12px;
+          }
+          .course-detail{
+            margin: 2em .5em .5em;
+            padding: 1em;
+            margin-top: -40px;
+            padding-left: -10px;
+          }
+          .contact {
+            height: auto;
+            padding: 1.5em 0;
+            text-align: center;
+            display: block;
+          }
+          .form-email button {
+            margin: 1em auto;
+          }
+          .form-email h3 {
+            margin-top: 0;
+          }
+          .footer {
+            display: block;
+            text-align: center;
+            border: 1px solid transparent;
+          }
+          h1 {
+            padding:1em ;
+            padding-left: .7em ;
+            margin: 0.5em;
+           margin-left: 0.7em;
+            /* margin-left: .3em; */
+            font-size: 1.5em;
+            background: rgba(0, 0, 0, .6);
+            text-align: center;
+          }
+          .project-description {
+            font-size: 1em;
+          }
+        }
+    
+        @media screen and (max-width: 454px){
+          h1 {
+            background: rgba(0, 0, 0, .6);
+            text-align: center;
+            justify-content: center;
+            margin-left: 3em;
+            margin-right: 3em;
+            margin: .5em;
+            padding: 0.4em;
+           }
+          }
+    @media screen and (max-width: 436px){
+      h1 {
+        background: rgba(0, 0, 0, .6);
+        text-align: center;
+        justify-content: center;
+        margin-left: 3em;
+        margin-right: 3em;
+        margin: .4em;
+        padding: 0.4em;
+       }
+      }
+  @media screen and (max-width: 418px){
+    h1 {
+      background: rgba(0, 0, 0, .6);
+      text-align: center;
+      justify-content: center;
+      padding: 0.2em;
+     }
     }
-  }
+    @media screen and (max-width: 409px){
+      h1 {
+        background: rgba(0, 0, 0, .6);
+        text-align: center;
+        justify-content: center;
+        padding: 0.2em;
+        margin: .3em;
+       }
+      }
+
+      @media screen and (max-width: 404px){
+        h1 {
+          background: rgba(0, 0, 0, .6);
+          text-align: center;
+          justify-content: center;
+          padding: 0.1em;
+          margin: .2em;
+         }
+        }
+        @media screen and (max-width: 398px){
+          h1 {
+            background: rgba(0, 0, 0, .6);
+            text-align: center;
+            justify-content: center;
+            padding: 0.1em;
+            margin: .1em;
+            margin-left: -.1em;
+            margin-right: -1em;
+           }
+          }
+          @media screen and (max-width: 398px){
+            h1 {
+              background: rgba(0, 0, 0, .6);
+              text-align: center;
+              justify-content: center;
+              padding: 0.1em;
+              margin: .1em;
+              margin-left: -.1em;
+              margin-right: -1em;
+             }
+            }
+            @media screen and (max-width: 358px){
+              h1 {
+                background: rgba(0, 0, 0, .6);
+                text-align: center;
+                justify-content: center;
+                padding: 0em;
+               }
+              }
+              @media screen and (max-width: 353px){
+                h1 {
+                  background: rgba(0, 0, 0, .6);
+                  text-align: center;
+                  justify-content: center;
+                  padding: 0em;
+                  margin-left: -1em;
+                 }
+                }
+                @media screen and (max-width: 332px){
+                  h1 {
+                    background: rgba(0, 0, 0, .6);
+                    text-align: center;
+                    justify-content: center;
+                    padding: 0em;
+                    margin-left: -1.3em;
+                   }
+                  }
+                  @media screen and (max-width: 325px){
+                    h1 {
+                      background: rgba(0, 0, 0, .6);
+                      text-align: center;
+                      justify-content: center;
+                      padding: 0em;
+                      margin-left: -1.4em;
+                     }
+                    }
+                    @media screen and (max-width: 322px){
+                      h1 {
+                        background: rgba(0, 0, 0, .6);
+                        text-align: center;
+                        justify-content: center;
+                        padding: 0em;
+                        margin-left: -1.5em;
+                       }
+                      }
   @media screen and (max-width: 320px){
     h1 {
-      font-size: 1.2em;
+      font-size: 1.3em;
+      margin-left: -.1em;
     }
     .hero {
       padding: 2em 1em;
     }
   }
+ 
