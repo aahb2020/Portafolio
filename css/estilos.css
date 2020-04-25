@@ -236,7 +236,7 @@ body {
     flex-wrap: wrap;
   }
   .course-list-title {
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .course { 
     margin: 10px;
@@ -365,6 +365,60 @@ body {
     .contact {
       padding-bottom: .9em;
     }
+    .form-email input {
+      padding-bottom: 8px;
+    }
+    .header {
+      margin-bottom: -.5em;
+    }
+    .course-list {
+      justify-content: center;
+     }
+     .project-imageContainer img {
+       width: 90%;
+       height: 30em;
+       padding-top: 0em;
+       padding-right: 2em;
+       padding-bottom:0em ;
+     }
+     h2 {
+       font-size: 2.7em;
+       text-align: center;
+       padding-top: 0;
+       margin-top: .6em;
+     }
+     .project-title {
+       font-size: 2.8em;
+       padding-left: 0;
+       padding-bottom: .1em;
+       padding-top: -1em;
+       margin-top: 0;
+     }
+     .project {
+       width: 97.4%;
+       height:500px ;
+       justify-content: center;
+     }
+     .project-date {
+       font-size: 1.5em;
+     }
+     .project-course {
+       font-size: 1.3em;
+     }
+     .project-description {
+       font-size: 1.6em;
+     }
+    }
+  @media screen and (max-width: 1024px){
+    .container {
+      padding-top: 0em;
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-bottom: 0em;
+    }
+    .contact {
+      padding-bottom: .9em;
+    }
     .hero {
       height: auto;
       position: relative;
@@ -394,6 +448,14 @@ body {
     .course-list {
      justify-content: center;
     }
+    .project {
+      width: 95.6%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+     .project {
+       width: 94%;
+    }
   }
   @media screen and (max-width: 767px) {
     .burger-button{
@@ -414,8 +476,9 @@ body {
      justify-content: center;
      height: 40px;
      font-size: 2em;
-     margin-bottom: .5em;
+     margin: .5em;
      text-decoration: underline;
+     padding: 1em; 
   
    }
    .header .logo {
@@ -441,6 +504,7 @@ body {
    }
    .project{
      display: block;
+     height: auto;
    }
    .project-imageContainer{
      width: auto;
@@ -481,6 +545,9 @@ body {
     margin: 2px;
   
    }
+   .project-imageContainer img {
+     height: 100%;
+   }
   }
   
   @media screen and (max-width: 520px){
@@ -492,6 +559,14 @@ body {
       margin-right: 3em;
       margin: .4em;
      }
+     .portfolio{
+      padding: 0em;
+    }
+    .project {
+      width: 93%;
+      padding: 0.5em;
+      margin-right: -1em;
+    }
     }
     @media screen and (max-width: 502px){
       h1 {
@@ -553,6 +628,14 @@ body {
           .project-description {
             font-size: 1em;
           }
+          h2 {
+            font-size: 1.6em;
+            margin-bottom: .5em;
+          }
+          .project {
+            width: 96%;
+          }
+          
         }
     
         @media screen and (max-width: 454px){
@@ -576,6 +659,15 @@ body {
         margin: .4em;
         padding: 0.4em;
        }
+       .course-list-title  {
+         margin-left: 0;
+       }
+       h2{
+        margin-bottom: .5em;
+      }
+      .project {
+        width: 95%;
+      }
       }
   @media screen and (max-width: 418px){
     h1 {
@@ -615,7 +707,7 @@ body {
             margin-right: -1em;
            }
           }
-          @media screen and (max-width: 398px){
+          @media screen and (max-width: 375px){
             h1 {
               background: rgba(0, 0, 0, .6);
               text-align: center;
@@ -625,7 +717,27 @@ body {
               margin-left: -.1em;
               margin-right: -1em;
              }
+             .project {
+              width: 94%;
+              padding: 0.5em;
+              margin-right: -1em;
             }
+            h2{
+              margin-bottom: .5em;
+            }
+            }
+            @media screen and (max-width: 398px){
+              h1 {
+                background: rgba(0, 0, 0, .6);
+                text-align: center;
+                justify-content: center;
+                padding: 0.1em;
+                margin: .1em;
+                margin-left: -.1em;
+                margin-right: -1em;
+               }
+
+              }
             @media screen and (max-width: 358px){
               h1 {
                 background: rgba(0, 0, 0, .6);
@@ -677,6 +789,11 @@ body {
     }
     .hero {
       padding: 2em 1em;
+    }
+    .project {
+      width: 93%;
+      padding: 0.5em;
+      margin-right: -1em;
     }
   }
  
