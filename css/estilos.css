@@ -451,11 +451,38 @@ body {
     .project {
       width: 95.6%;
     }
+    
   }
   @media screen and (max-width: 768px) {
      .project {
        width: 94%;
     }
+    .course img {
+      width: 100%;
+    }
+    .course {
+      width: auto;
+      flex-shrink: initial;
+    }
+    .project-course, .project-date, {
+      margin: .3em 0;
+    }
+    .project-title{
+      font-size: 2em;
+      margin-bottom: .3em;
+    }
+  
+    .project-course{
+     font-size: 1.1em;
+    }
+    .project-date{
+     font-size: 1.3em;
+     margin: .5em 0;
+    }
+    .project-description{
+     font-size: 1.2em;
+    }
+    
   }
   @media screen and (max-width: 767px) {
     .burger-button{
@@ -548,7 +575,23 @@ body {
    .project-imageContainer img {
      height: 100%;
    }
+   .project-imageContainer img {
+    padding-right: 0;
   }
+  .course-list-title {
+    padding-top: .2em;
+  }
+  .course-imageContainer {
+    padding-bottom: .2em;
+  }
+  .course {
+    margin-bottom: .7em;
+  }
+  .contact {
+    padding-top: 1.5em;
+    margin-top: .7em;
+  }
+}
   
   @media screen and (max-width: 520px){
     h1 {
@@ -585,7 +628,7 @@ body {
           justify-content: center;
           margin-left: 3em;
           margin-right: 3em;
-          margin: .em;
+          margin: .7em;
          }
         }
         @media screen and (max-width: 480px){
@@ -603,6 +646,7 @@ body {
             padding: 1.5em 0;
             text-align: center;
             display: block;
+            margin-top: .7em;
           }
           .form-email button {
             margin: 1em auto;
@@ -635,7 +679,18 @@ body {
           .project {
             width: 96%;
           }
-          
+          .project-imageContainer img {
+            padding-right: 0;
+          }
+          .course-list-title {
+            padding-top: .2em;
+          }
+          .course-imageContainer {
+            padding-bottom: .2em;
+          }
+          .course {
+            margin-bottom: .7em;
+          }
         }
     
         @media screen and (max-width: 454px){
@@ -661,12 +716,26 @@ body {
        }
        .course-list-title  {
          margin-left: 0;
+         padding-top: .2em;
        }
        h2{
         margin-bottom: .5em;
       }
       .project {
         width: 95%;
+      }
+      .project-imageContainer img {
+        padding-right: 0;
+      }
+      .course-imageContainer {
+        padding-bottom: .2em;
+      }
+      .course {
+        margin-bottom: .7em;
+      }
+      .contact {
+        padding-top: 1.5em;
+        margin-top: .7em;
       }
       }
   @media screen and (max-width: 418px){
@@ -718,25 +787,29 @@ body {
               margin-right: -1em;
              }
              .project {
-              width: 94%;
-              padding: 0.5em;
+              width: 89.5%;
+              padding: 1em;
               margin-right: -1em;
             }
             h2{
               margin-bottom: .5em;
             }
+            .project-imageContainer img {
+              padding-right: 0;
             }
-            @media screen and (max-width: 398px){
-              h1 {
-                background: rgba(0, 0, 0, .6);
-                text-align: center;
-                justify-content: center;
-                padding: 0.1em;
-                margin: .1em;
-                margin-left: -.1em;
-                margin-right: -1em;
-               }
-
+            .course-list-title {
+              padding-top: .2em;
+            }
+            .course-imageContainer {
+              padding-bottom: .2em;
+            }
+            .course {
+              margin-bottom: .7em;
+            }
+            .contact {
+              padding-top: 1.5em;
+              margin-top: .7em;
+            }
               }
             @media screen and (max-width: 358px){
               h1 {
@@ -791,9 +864,26 @@ body {
       padding: 2em 1em;
     }
     .project {
-      width: 93%;
-      padding: 0.5em;
+      width: 90%;
+      padding: 1em;
       margin-right: -1em;
     }
+    .project-imageContainer img {
+      padding-right: 0;
+    }
+    .course-list-title {
+      padding-top: .2em;
+    }
+    .course-imageContainer {
+      padding-bottom: .2em;
+    }
+    .course {
+      margin-bottom: .7em;
+    }
+    .contact {
+      padding-top: 1.5em;
+      margin-top: .7em;
+    }
+
   }
  
