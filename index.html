@@ -88,11 +88,11 @@
               <a class="course-url" href="https://platzi.com/@aahb2020/curso/1557-git-github/diploma/detalle/" target="_blank">Ver Certificado</a>
             </div>
           </article>
-          <article class="course" id="course-responsive-design">
+          <article class="course">
             <figure class="course-imageContainer">
               <img class="course-image" src="images/responsive-design.png" width="500" />
             </figure>
-            <div class="course-detail" id="course-details-responsive-design">
+            <div class="course-detail">
               <h3 class="course-title">Responsive Design</h3>
               <p class="course-description">Aprende a adaptar la pagina Web a distintas pantallas. <p>
               <a class="course-url" href="https://platzi.com/@aahb2020/curso/1362-responsive-design/diploma/detalle/" target="_blank">Ver Certificado</a>
@@ -139,7 +139,8 @@
             burgerButton.removeEventListener ("click", hideShow)
           }
         }
-  
+          validation(ipad);
+
         function hideShow () {
           if  (menu.classList.contains("is-active")){
             menu.classList.remove ("is-active");
